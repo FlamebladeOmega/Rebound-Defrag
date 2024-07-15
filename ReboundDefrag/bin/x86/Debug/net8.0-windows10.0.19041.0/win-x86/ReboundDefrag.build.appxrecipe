@@ -640,6 +640,9 @@
     <AppxPackagedFile Include="C:\Users\piotr\.nuget\packages\microsoft.windowsappsdk\1.5.240607001\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piotr\Desktop\Rebound\ReboundDefrag\ReboundDefrag\Assets\Icon1 — kopia.png">
+      <PackagePath>Assets\Icon1 — kopia.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piotr\Desktop\Rebound\ReboundDefrag\ReboundDefrag\Assets\Icon1.png">
       <PackagePath>Assets\Icon1.png</PackagePath>
     </AppxPackagedFile>

@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\piotr\Desktop\Rebound\ReboundDefrag\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-21T12:19:34.478</Modified>
+      <Modified>2024-06-22T08:04:42.344</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\piotr\Desktop\Rebound\ReboundDefrag\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-21T12:19:34.182</Modified>
+      <Modified>2024-06-22T08:04:42.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piotr\Desktop\Rebound\ReboundDefrag\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ReboundDefrag.runtimeconfig.json">
       <PackagePath>ReboundDefrag.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piotr\Desktop\Rebound\ReboundDefrag\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ReboundDefrag.dll">
       <PackagePath>ReboundDefrag.dll</PackagePath>
-      <Modified>2024-06-21T12:19:34.023</Modified>
+      <Modified>2024-06-22T08:04:41.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piotr\Desktop\Rebound\ReboundDefrag\ReboundDefrag\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>ReboundDefrag.exe</PackagePath>
-      <Modified>2024-06-21T12:19:34.028</Modified>
+      <Modified>2024-06-22T08:04:41.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piotr\Desktop\Rebound\ReboundDefrag\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ReboundDefrag.deps.json">
       <PackagePath>ReboundDefrag.deps.json</PackagePath>
@@ -852,6 +852,10 @@
     <AppxPackagedFile Include="C:\Users\piotr\.nuget\packages\microsoft.windowsappsdk\1.5.240607001\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-07T06:05:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piotr\Desktop\Rebound\ReboundDefrag\ReboundDefrag\Assets\Icon1 — kopia.png">
+      <PackagePath>Assets\Icon1 — kopia.png</PackagePath>
+      <Modified>2024-06-21T11:59:29.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piotr\Desktop\Rebound\ReboundDefrag\ReboundDefrag\Assets\Icon1.png">
       <PackagePath>Assets\Icon1.png</PackagePath>
