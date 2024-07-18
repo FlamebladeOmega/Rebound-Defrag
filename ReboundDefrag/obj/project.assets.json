@@ -2,6 +2,55 @@
   "version": 3,
   "targets": {
     "net8.0-windows10.0.19041": {
+      "CommunityToolkit.Common/8.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "CommunityToolkit.WinUI.Extensions/8.0.240109": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Common": "8.2.1",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
+          "Microsoft.WindowsAppSDK": "1.3.230331000"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.dll": {
+            "related": ".pdb;.pri"
+          }
+        }
+      },
+      "CommunityToolkit.WinUI.Helpers/8.0.240109": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.WinUI.Extensions": "8.0.240109",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
+          "Microsoft.WindowsAppSDK": "1.3.230331000"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.dll": {
+            "related": ".pdb;.pri"
+          }
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
         "type": "package",
         "build": {
@@ -106,9 +155,100 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "System.Diagnostics.EventLog/9.0.0-preview.6.24327.7": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "WinUIEx/2.3.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.4.230822000"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/WinUIEx.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/WinUIEx.dll": {
+            "related": ".pri;.xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/win-arm64": {
+      "CommunityToolkit.Common/8.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "CommunityToolkit.WinUI.Extensions/8.0.240109": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Common": "8.2.1",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
+          "Microsoft.WindowsAppSDK": "1.3.230331000"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.dll": {
+            "related": ".pdb;.pri"
+          }
+        }
+      },
+      "CommunityToolkit.WinUI.Helpers/8.0.240109": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.WinUI.Extensions": "8.0.240109",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
+          "Microsoft.WindowsAppSDK": "1.3.230331000"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.dll": {
+            "related": ".pdb;.pri"
+          }
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
         "type": "package",
         "build": {
@@ -190,9 +330,91 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "System.Diagnostics.EventLog/9.0.0-preview.6.24327.7": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {},
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "WinUIEx/2.3.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.4.230822000"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/WinUIEx.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/WinUIEx.dll": {
+            "related": ".pri;.xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/win-x64": {
+      "CommunityToolkit.Common/8.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "CommunityToolkit.WinUI.Extensions/8.0.240109": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Common": "8.2.1",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
+          "Microsoft.WindowsAppSDK": "1.3.230331000"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.dll": {
+            "related": ".pdb;.pri"
+          }
+        }
+      },
+      "CommunityToolkit.WinUI.Helpers/8.0.240109": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.WinUI.Extensions": "8.0.240109",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
+          "Microsoft.WindowsAppSDK": "1.3.230331000"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.dll": {
+            "related": ".pdb;.pri"
+          }
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
         "type": "package",
         "build": {
@@ -274,9 +496,91 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "System.Diagnostics.EventLog/9.0.0-preview.6.24327.7": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {},
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "WinUIEx/2.3.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.4.230822000"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/WinUIEx.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/WinUIEx.dll": {
+            "related": ".pri;.xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/win-x86": {
+      "CommunityToolkit.Common/8.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "CommunityToolkit.WinUI.Extensions/8.0.240109": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Common": "8.2.1",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
+          "Microsoft.WindowsAppSDK": "1.3.230331000"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.dll": {
+            "related": ".pdb;.pri"
+          }
+        }
+      },
+      "CommunityToolkit.WinUI.Helpers/8.0.240109": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.WinUI.Extensions": "8.0.240109",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
+          "Microsoft.WindowsAppSDK": "1.3.230331000"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.dll": {
+            "related": ".pdb;.pri"
+          }
+        }
+      },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
         "type": "package",
         "build": {
@@ -358,10 +662,126 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "System.Diagnostics.EventLog/9.0.0-preview.6.24327.7": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {},
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "WinUIEx/2.3.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.4.230822000"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/WinUIEx.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/WinUIEx.dll": {
+            "related": ".pri;.xml"
+          }
+        }
       }
     }
   },
   "libraries": {
+    "CommunityToolkit.Common/8.2.1": {
+      "sha512": "LWuhy8cQKJ/MYcy3XafJ916U3gPH/YDvYoNGWyQWN11aiEKCZszzPOTJAOvBjP9yG8vHmIcCyPUt4L82OK47Iw==",
+      "type": "package",
+      "path": "communitytoolkit.common/8.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "communitytoolkit.common.8.2.1.nupkg.sha512",
+        "communitytoolkit.common.nuspec",
+        "lib/net6.0/CommunityToolkit.Common.dll",
+        "lib/net6.0/CommunityToolkit.Common.pdb",
+        "lib/net6.0/CommunityToolkit.Common.xml",
+        "lib/netstandard2.0/CommunityToolkit.Common.dll",
+        "lib/netstandard2.0/CommunityToolkit.Common.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Common.xml",
+        "lib/netstandard2.1/CommunityToolkit.Common.dll",
+        "lib/netstandard2.1/CommunityToolkit.Common.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Common.xml"
+      ]
+    },
+    "CommunityToolkit.WinUI.Extensions/8.0.240109": {
+      "sha512": "4CpGj3g3Tn2KfNRvwg/USyL7KAdY0rKqfc4ZYk57buoVpvAQLcmMpL/+/kbRe9Pixj4HY5On6H39bqTntd3+DQ==",
+      "type": "package",
+      "path": "communitytoolkit.winui.extensions/8.0.240109",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.md",
+        "ReadMe.md",
+        "communitytoolkit.winui.extensions.8.0.240109.nupkg.sha512",
+        "communitytoolkit.winui.extensions.nuspec",
+        "icon.png",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.dll",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.pdb",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.pri",
+        "lib/net7.0-android33.0/CommunityToolkit.WinUI.Extensions.aar",
+        "lib/net7.0-android33.0/CommunityToolkit.WinUI.Extensions.dll",
+        "lib/net7.0-android33.0/CommunityToolkit.WinUI.Extensions.pdb",
+        "lib/net7.0-android33.0/CommunityToolkit.WinUI.Extensions.xml",
+        "lib/net7.0-ios16.1/CommunityToolkit.WinUI.Extensions.dll",
+        "lib/net7.0-ios16.1/CommunityToolkit.WinUI.Extensions.pdb",
+        "lib/net7.0-maccatalyst16.1/CommunityToolkit.WinUI.Extensions.dll",
+        "lib/net7.0-maccatalyst16.1/CommunityToolkit.WinUI.Extensions.pdb",
+        "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.dll",
+        "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.pdb",
+        "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Extensions.pri",
+        "lib/net7.0/CommunityToolkit.WinUI.Extensions.dll",
+        "lib/net7.0/CommunityToolkit.WinUI.Extensions.pdb"
+      ]
+    },
+    "CommunityToolkit.WinUI.Helpers/8.0.240109": {
+      "sha512": "KzIyOq455H8YtjZVNKXyQ6tS/KwFTiud+Usi9+Y3tJSqsGAu00ToNaDSVcJmec116BZ7dGA12+pdEynOQo9yEA==",
+      "type": "package",
+      "path": "communitytoolkit.winui.helpers/8.0.240109",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.md",
+        "ReadMe.md",
+        "communitytoolkit.winui.helpers.8.0.240109.nupkg.sha512",
+        "communitytoolkit.winui.helpers.nuspec",
+        "icon.png",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.dll",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.pdb",
+        "lib/net6.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.pri",
+        "lib/net7.0-android33.0/CommunityToolkit.WinUI.Helpers.aar",
+        "lib/net7.0-android33.0/CommunityToolkit.WinUI.Helpers.dll",
+        "lib/net7.0-android33.0/CommunityToolkit.WinUI.Helpers.pdb",
+        "lib/net7.0-android33.0/CommunityToolkit.WinUI.Helpers.xml",
+        "lib/net7.0-ios16.1/CommunityToolkit.WinUI.Helpers.dll",
+        "lib/net7.0-ios16.1/CommunityToolkit.WinUI.Helpers.pdb",
+        "lib/net7.0-maccatalyst16.1/CommunityToolkit.WinUI.Helpers.dll",
+        "lib/net7.0-maccatalyst16.1/CommunityToolkit.WinUI.Helpers.pdb",
+        "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.dll",
+        "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.pdb",
+        "lib/net7.0-windows10.0.19041/CommunityToolkit.WinUI.Helpers.pri",
+        "lib/net7.0/CommunityToolkit.WinUI.Helpers.dll",
+        "lib/net7.0/CommunityToolkit.WinUI.Helpers.pdb"
+      ]
+    },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
       "sha512": "7ZL2sFSioYm1Ry067Kw1hg0SCcW5kuVezC2SwjGbcPE61Nn+gTbH86T73G3LcEOVj0S3IZzNuE/29gZvOLS7VA==",
       "type": "package",
@@ -1210,32 +1630,89 @@
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
       ]
+    },
+    "System.Diagnostics.EventLog/9.0.0-preview.6.24327.7": {
+      "sha512": "mDHj/CP/htiMjPftiY5DtgHF6kxFfrdnVxDO6C5MFU8aUVQl60SqtzGeMMnm9EmUItEdWC2YQM7i0c98N40zJQ==",
+      "type": "package",
+      "path": "system.diagnostics.eventlog/9.0.0-preview.6.24327.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Diagnostics.EventLog.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
+        "lib/net462/System.Diagnostics.EventLog.dll",
+        "lib/net462/System.Diagnostics.EventLog.xml",
+        "lib/net8.0/System.Diagnostics.EventLog.dll",
+        "lib/net8.0/System.Diagnostics.EventLog.xml",
+        "lib/net9.0/System.Diagnostics.EventLog.dll",
+        "lib/net9.0/System.Diagnostics.EventLog.xml",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.xml",
+        "system.diagnostics.eventlog.9.0.0-preview.6.24327.7.nupkg.sha512",
+        "system.diagnostics.eventlog.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "WinUIEx/2.3.4": {
+      "sha512": "wtptPKduMiTjfVhTQAcA7PHvY6NTAEkDj5zvW+4QbHg1YdUv8NFAU9CSH37OXBkBlHrsuyDIoHuF7xAMR8iqJw==",
+      "type": "package",
+      "path": "winuiex/2.3.4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "analyzers/dotnet/cs/WinUIEx.Analyzers.dll",
+        "lib/net6.0-windows10.0.18362/WinUIEx.dll",
+        "lib/net6.0-windows10.0.18362/WinUIEx.pri",
+        "lib/net6.0-windows10.0.18362/WinUIEx.xml",
+        "logo.png",
+        "tools/install.ps1",
+        "tools/uninstall.ps1",
+        "winuiex.2.3.4.nupkg.sha512",
+        "winuiex.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows10.0.19041": [
+      "CommunityToolkit.WinUI.Helpers >= 8.0.240109",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.756",
-      "Microsoft.WindowsAppSDK >= 1.5.240607001"
+      "Microsoft.WindowsAppSDK >= 1.5.240607001",
+      "System.Diagnostics.EventLog >= 9.0.0-preview.6.24327.7",
+      "WinUIEx >= 2.3.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\piotr\\.nuget\\packages\\": {},
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\piotr\\Desktop\\Rebound\\ReboundDefrag\\ReboundDefrag\\ReboundDefrag.csproj",
+      "projectUniqueName": "E:\\src\\ReboundDefrag\\ReboundDefrag\\ReboundDefrag.csproj",
       "projectName": "ReboundDefrag",
-      "projectPath": "C:\\Users\\piotr\\Desktop\\Rebound\\ReboundDefrag\\ReboundDefrag\\ReboundDefrag.csproj",
-      "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\piotr\\Desktop\\Rebound\\ReboundDefrag\\ReboundDefrag\\obj\\",
+      "projectPath": "E:\\src\\ReboundDefrag\\ReboundDefrag\\ReboundDefrag.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "E:\\src\\ReboundDefrag\\ReboundDefrag\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\piotr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1267,6 +1744,10 @@
       "net8.0-windows10.0.19041": {
         "targetAlias": "net8.0-windows10.0.19041.0",
         "dependencies": {
+          "CommunityToolkit.WinUI.Helpers": {
+            "target": "Package",
+            "version": "[8.0.240109, )"
+          },
           "Microsoft.Windows.SDK.BuildTools": {
             "target": "Package",
             "version": "[10.0.22621.756, )"
@@ -1274,6 +1755,14 @@
           "Microsoft.WindowsAppSDK": {
             "target": "Package",
             "version": "[1.5.240607001, )"
+          },
+          "System.Diagnostics.EventLog": {
+            "target": "Package",
+            "version": "[9.0.0-preview.6.24327.7, )"
+          },
+          "WinUIEx": {
+            "target": "Package",
+            "version": "[2.3.4, )"
           }
         },
         "imports": [
@@ -1290,27 +1779,27 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-            "version": "[8.0.6, 8.0.6]"
+            "version": "[8.0.2, 8.0.2]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[8.0.6, 8.0.6]"
+            "version": "[8.0.2, 8.0.2]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[8.0.6, 8.0.6]"
+            "version": "[8.0.2, 8.0.2]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-            "version": "[8.0.6, 8.0.6]"
+            "version": "[8.0.2, 8.0.2]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[8.0.6, 8.0.6]"
+            "version": "[8.0.2, 8.0.2]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x86",
-            "version": "[8.0.6, 8.0.6]"
+            "version": "[8.0.2, 8.0.2]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -1318,15 +1807,15 @@
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-            "version": "[8.0.6, 8.0.6]"
+            "version": "[8.0.2, 8.0.2]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[8.0.6, 8.0.6]"
+            "version": "[8.0.2, 8.0.2]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-            "version": "[8.0.6, 8.0.6]"
+            "version": "[8.0.2, 8.0.2]"
           }
         ],
         "frameworkReferences": {
@@ -1337,7 +1826,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

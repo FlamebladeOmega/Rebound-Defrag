@@ -1,47 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Window
+<winuiex:WindowEx
     x:Class="ReboundDefrag.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:ReboundDefrag"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:winuiex="using:WinUIEx"
     mc:Ignorable="d">
     <Grid>
-        <TextBlock FontWeight="Light" FontSize="36" Margin="10,30,10,0">Step 1
-        </TextBlock>
-        <TextBlock FontSize="18" HorizontalAlignment="Right" Margin="0,45,10,0">Choose a drive.</TextBlock>
-        <ListView x:Name="MyListView" SelectionChanged="ListviewSelectionChange" Margin="10,100,0,0"
-                  BorderThickness="1" Width="750" Height="225" HorizontalAlignment="Left" VerticalAlignment="Top"
-                    BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}" SelectedIndex="0">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal">
-                        <Image Source="{Binding ImagePath}" Width="24" Height="24" Margin="0,0,10,0"/>
-                        <TextBlock Text="{Binding Name}" VerticalAlignment="Center"/>
-                    </StackPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-        <TextBlock FontWeight="Light" FontSize="36" Margin="10,335,10,0">Step 2
-        </TextBlock>
-        <TextBlock FontSize="18" HorizontalAlignment="Right" Margin="0,350,10,0">Choose an action.</TextBlock>
-
-        <Grid>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,150,0,0">
-                <Button MaxWidth="240" Margin="0,0,8,0"  Style="{StaticResource AccentButtonStyle}">
-                    <TextBlock Text="Optimize" TextWrapping="WrapWholeWords"/>
-                </Button>
-                <Button MaxWidth="240">
-                    <TextBlock Text="Analyze" TextWrapping="WrapWholeWords" />
-                </Button>
+        <StackPanel Spacing="10" Margin="15, 5, 15, 15">
+            <TextBlock x:Name="AdministratorStatusTextBlock"/>
+            <InfoBar IsOpen="True" IsClosable="False" Title="You can optimize your drives to help your computer run more efficiently, or analyze them to find out if they need to be optimized. Only drives on or connected to your computer are shown."/>
+            <ListView x:Name="MyListView" SelectionChanged="ListviewSelectionChange" CornerRadius="4"
+                  BorderThickness="1" Height="225" Padding="3" HorizontalAlignment="Stretch" VerticalAlignment="Top"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" Background="{ThemeResource SystemFillColorAttentionBackgroundBrush}" SelectedIndex="0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="{Binding ImagePath}" Width="24" Height="24" Margin="0,0,10,0"/>
+                            <TextBlock Text="{Binding Name}" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid>
+                <ToggleSwitch x:Name="AdvancedView" OffContent="Advanced View" OnContent="Advanced View"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="10">
+                    <Button Content="Analyze" Width="120"/>
+                    <Button Content="Optimize" Style="{ThemeResource AccentButtonStyle}" Width="120" Click="Button_Click"/>
+                </StackPanel>
+            </Grid>
+            <InfoBar x:Name="DetailsBar" IsOpen="True" IsClosable="False" Title="Local Disk (C:)" Message="Media type: SSD (Solid state drive)&#x0a;Last analyzed or optimized: 15.07.2024 10:19&#x0a;Current status: OK (0 days since last retrim)"/>
+            <Grid Padding="15" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" Background="{ThemeResource SystemFillColorAttentionBackgroundBrush}" BorderThickness="1" CornerRadius="4" Height="120">
+                <StackPanel Spacing="5">
+                    <TextBlock Text="Scheduled optimization" FontWeight="SemiBold"/>
+                    <TextBlock Text="Off (Frequency: none)"/>
+                    <Button Content="Turn on" Width="120" Margin="0, 5, 0, 0" HorizontalAlignment="Right"/>
+                </StackPanel>
+            </Grid>
         </StackPanel>
     </Grid>
 
-        <TextBlock FontWeight="Light" FontSize="36" Margin="10,450,10,0">Settings
-        </TextBlock>
-        <Button Content="Change Settings" HorizontalAlignment="Right" Margin="0,300,10,0" />
-
-    </Grid>
-
-</Window>
+</winuiex:WindowEx>

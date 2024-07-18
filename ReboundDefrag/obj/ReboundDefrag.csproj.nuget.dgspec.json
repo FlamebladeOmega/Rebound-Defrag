@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\piotr\\Desktop\\Rebound\\ReboundDefrag\\ReboundDefrag\\ReboundDefrag.csproj": {}
+    "E:\\src\\ReboundDefrag\\ReboundDefrag\\ReboundDefrag.csproj": {}
   },
   "projects": {
-    "C:\\Users\\piotr\\Desktop\\Rebound\\ReboundDefrag\\ReboundDefrag\\ReboundDefrag.csproj": {
+    "E:\\src\\ReboundDefrag\\ReboundDefrag\\ReboundDefrag.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\piotr\\Desktop\\Rebound\\ReboundDefrag\\ReboundDefrag\\ReboundDefrag.csproj",
+        "projectUniqueName": "E:\\src\\ReboundDefrag\\ReboundDefrag\\ReboundDefrag.csproj",
         "projectName": "ReboundDefrag",
-        "projectPath": "C:\\Users\\piotr\\Desktop\\Rebound\\ReboundDefrag\\ReboundDefrag\\ReboundDefrag.csproj",
-        "packagesPath": "C:\\Users\\piotr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\piotr\\Desktop\\Rebound\\ReboundDefrag\\ReboundDefrag\\obj\\",
+        "projectPath": "E:\\src\\ReboundDefrag\\ReboundDefrag\\ReboundDefrag.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\src\\ReboundDefrag\\ReboundDefrag\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\piotr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,6 +49,10 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "CommunityToolkit.WinUI.Helpers": {
+              "target": "Package",
+              "version": "[8.0.240109, )"
+            },
             "Microsoft.Windows.SDK.BuildTools": {
               "target": "Package",
               "version": "[10.0.22621.756, )"
@@ -56,6 +60,14 @@
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
               "version": "[1.5.240607001, )"
+            },
+            "System.Diagnostics.EventLog": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
+            "WinUIEx": {
+              "target": "Package",
+              "version": "[2.3.4, )"
             }
           },
           "imports": [
@@ -72,27 +84,27 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-              "version": "[8.0.6, 8.0.6]"
+              "version": "[8.0.2, 8.0.2]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.6, 8.0.6]"
+              "version": "[8.0.2, 8.0.2]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[8.0.6, 8.0.6]"
+              "version": "[8.0.2, 8.0.2]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-              "version": "[8.0.6, 8.0.6]"
+              "version": "[8.0.2, 8.0.2]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.6, 8.0.6]"
+              "version": "[8.0.2, 8.0.2]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x86",
-              "version": "[8.0.6, 8.0.6]"
+              "version": "[8.0.2, 8.0.2]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -100,15 +112,15 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-              "version": "[8.0.6, 8.0.6]"
+              "version": "[8.0.2, 8.0.2]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[8.0.6, 8.0.6]"
+              "version": "[8.0.2, 8.0.2]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-              "version": "[8.0.6, 8.0.6]"
+              "version": "[8.0.2, 8.0.2]"
             }
           ],
           "frameworkReferences": {
@@ -119,7 +131,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
