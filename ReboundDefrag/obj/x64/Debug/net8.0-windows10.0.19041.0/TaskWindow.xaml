@@ -12,7 +12,38 @@
         <MicaBackdrop/>
     </winuiex:WindowEx.SystemBackdrop>
     <Grid>
-
+        <StackPanel Margin="15, 5, 15, 90" Spacing="15">
+            <CheckBox Content="Run on a schedule (recommended)"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="15"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <ComboBox Header="Frequency" HorizontalAlignment="Stretch">
+                    <ComboBoxItem Content="Daily"/>
+                    <ComboBoxItem Content="Weekly"/>
+                    <ComboBoxItem Content="Monthly"/>
+                </ComboBox>
+                <CheckBox Content="Optimize all" Grid.Column="2" VerticalAlignment="Bottom"/>
+            </Grid>
+            <ListView x:ConnectionId='2' CornerRadius="4"
+                  BorderThickness="1" Padding="3" HorizontalAlignment="Stretch" VerticalAlignment="Top"
+                  Height="190" x:Name="MyListView" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" Background="{ThemeResource SystemFillColorAttentionBackgroundBrush}" SelectedIndex="0" SelectionMode="Multiple" IsMultiSelectCheckBoxEnabled="True">
+            </ListView>
+        </StackPanel>
+        <Border Grid.ColumnSpan="2" BorderThickness="0,1,0,0" Height="75" Background="{ThemeResource SystemControlBackgroundAltMediumLowBrush}" BorderBrush="#338A8A8A" VerticalAlignment="Bottom"/>
+        <Grid Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="8"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="8"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="2" Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Content="OK" Margin="20, 20, 0, 20"/>
+            <Button Grid.Column="4" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Content="Cancel" Margin="0, 20, 20, 20"/>
+        </Grid>
     </Grid>
 </winuiex:WindowEx>
 

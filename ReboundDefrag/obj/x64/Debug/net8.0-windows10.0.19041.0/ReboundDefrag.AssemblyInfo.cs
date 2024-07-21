@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReboundDefrag")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a215f08f372c8b7137286b1738dab9ec56d14e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a11f9b1dfde7744a671d59688823f21f33ca342")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReboundDefrag")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReboundDefrag")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
