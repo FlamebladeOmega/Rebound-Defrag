@@ -10,34 +10,34 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>d95018df-c138-4063-90b9-c5deba277907</PackageIdentityName>
     <PackageIdentityPublisher>CN=piotr</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\src\ReboundDefrag\ReboundDefrag\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\src\ReboundDefrag\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppX</LayoutDir>
+    <LayoutDir>E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\src\ReboundDefrag\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
+    <AppXManifest Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ReboundDefrag.runtimeconfig.json">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ReboundDefrag.runtimeconfig.json">
       <PackagePath>ReboundDefrag.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ReboundDefrag.dll">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ReboundDefrag.dll">
       <PackagePath>ReboundDefrag.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>ReboundDefrag.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ReboundDefrag.deps.json">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ReboundDefrag.deps.json">
       <PackagePath>ReboundDefrag.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.2\runtimes\win-x86\lib\net8.0\Microsoft.CSharp.dll">
@@ -601,6 +601,15 @@
     <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\communitytoolkit.winui.helpers\8.0.240109\lib\net7.0-windows10.0.19041\CommunityToolkit.WinUI.Helpers.dll">
       <PackagePath>CommunityToolkit.WinUI.Helpers.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\hardware.info\100.1.0.1\lib\netstandard2.0\Hardware.Info.dll">
+      <PackagePath>Hardware.Info.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.win\3.0.0\runtimes\win-x86\lib\netstandard1.6\microsoft.management.infrastructure.dll">
+      <PackagePath>microsoft.management.infrastructure.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.win\3.0.0\runtimes\win-x86\lib\netstandard1.6\microsoft.management.infrastructure.native.dll">
+      <PackagePath>microsoft.management.infrastructure.native.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.5.240607001\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
     </AppxPackagedFile>
@@ -646,14 +655,32 @@
     <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.5.240607001\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.codedom\9.0.0-preview.6.24327.7\lib\net8.0\System.CodeDom.dll">
+      <PackagePath>System.CodeDom.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.configuration.configurationmanager\8.0.0\lib\net8.0\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.diagnostics.eventlog\9.0.0-preview.6.24327.7\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll">
       <PackagePath>System.Diagnostics.EventLog.Messages.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.diagnostics.eventlog\9.0.0-preview.6.24327.7\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll">
       <PackagePath>System.Diagnostics.EventLog.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.diagnostics.performancecounter\8.0.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll">
+      <PackagePath>System.Diagnostics.PerformanceCounter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.management\9.0.0-preview.6.24327.7\runtimes\win\lib\net8.0\System.Management.dll">
+      <PackagePath>System.Management.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.security.cryptography.protecteddata\8.0.0\lib\net8.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>System.Security.Cryptography.ProtectedData.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\winuiex\2.3.4\lib\net6.0-windows10.0.18362\WinUIEx.dll">
       <PackagePath>WinUIEx.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.win\3.0.0\runtimes\win-x86\native\microsoft.management.infrastructure.native.unmanaged.dll">
+      <PackagePath>microsoft.management.infrastructure.native.unmanaged.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.5.240607001\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
@@ -667,31 +694,31 @@
     <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\winuiex\2.3.4\lib\net6.0-windows10.0.18362\WinUIEx.pri">
       <PackagePath>WinUIEx.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\Assets\Icon1 — kopia.png">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\Icon1 — kopia.png">
       <PackagePath>Assets\Icon1 — kopia.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\Assets\Icon1.png">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\Icon1.png">
       <PackagePath>Assets\Icon1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\src\ReboundDefrag\ReboundDefrag\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

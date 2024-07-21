@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<winuiex:WindowEx
+    x:Class="ReboundDefrag.AdminWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ReboundDefrag"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:winuiex="using:WinUIEx">
+
+    <Grid>
+        <ContentDialog x:ConnectionId='2' x:Name="AdminDialog" Title="Rebound Defragment and Optimize Drives" Content="This application must be running as Administrator to perform tasks." PrimaryButtonText="Close"/>
+    </Grid>
+</winuiex:WindowEx>
+

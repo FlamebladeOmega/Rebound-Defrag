@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-LENOVO</Machine>
+    <WindowsUser>Lenovo</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>d95018df-c138-4063-90b9-c5deba277907</PackageIdentityName>
+    <PackageIdentityPublisher>CN=piotr</PackageIdentityPublisher>
+    <IntermediateOutputPath>E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\obj\x64\Debug\net8.0-windows10.0.19041.0\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\bin\x64\Debug\net8.0-windows10.0.19041.0\AppX</LayoutDir>
+    <RegisteredManifestChecksum>3D55D46C0C850B289CC0D3777CAFB00034FB2276B8ABE6AE798FE4004B089E04</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d95018df-c138-4063-90b9-c5deba277907_1.0.0.0_x64__60jzptcn15482</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d95018df-c138-4063-90b9-c5deba277907_60jzptcn15482!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d95018df-c138-4063-90b9-c5deba277907</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=piotr</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\bin\x64\Debug\net8.0-windows10.0.19041.0\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-07-21T18:22:48.245</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\bin\x64\Debug\net8.0-windows10.0.19041.0\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-07-21T18:22:48.189</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\bin\x64\Debug\net8.0-windows10.0.19041.0\ReboundDefrag.runtimeconfig.json">
+      <PackagePath>ReboundDefrag.runtimeconfig.json</PackagePath>
+      <Modified>2024-07-21T16:17:22.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\bin\x64\Debug\net8.0-windows10.0.19041.0\ReboundDefrag.dll">
+      <PackagePath>ReboundDefrag.dll</PackagePath>
+      <Modified>2024-07-21T18:22:47.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\obj\x64\Debug\net8.0-windows10.0.19041.0\apphost.exe">
+      <PackagePath>ReboundDefrag.exe</PackagePath>
+      <Modified>2024-07-21T18:22:47.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.web.webview2\1.0.2646-prerelease\runtimes\win-x64\native\WebView2Loader.dll">
+      <PackagePath>runtimes\win-x64\native\WebView2Loader.dll</PackagePath>
+      <Modified>2024-06-12T08:49:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.22621.35-preview\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
+      <Modified>2024-05-17T03:57:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\communitytoolkit.common\8.2.1\lib\net6.0\CommunityToolkit.Common.dll">
+      <PackagePath>CommunityToolkit.Common.dll</PackagePath>
+      <Modified>2023-07-05T18:52:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\communitytoolkit.winui.extensions\8.0.240109\lib\net7.0-windows10.0.19041\CommunityToolkit.WinUI.Extensions.dll">
+      <PackagePath>CommunityToolkit.WinUI.Extensions.dll</PackagePath>
+      <Modified>2024-01-09T23:42:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\communitytoolkit.winui.helpers\8.0.240109\lib\net7.0-windows10.0.19041\CommunityToolkit.WinUI.Helpers.dll">
+      <PackagePath>CommunityToolkit.WinUI.Helpers.dll</PackagePath>
+      <Modified>2024-01-09T23:42:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\hardware.info\100.1.0.1\lib\netstandard2.0\Hardware.Info.dll">
+      <PackagePath>Hardware.Info.dll</PackagePath>
+      <Modified>2024-07-05T09:47:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windows.cswinrt\2.1.0-prerelease.240602.1\lib\net6.0\WinRT.Runtime.dll">
+      <PackagePath>WinRT.Runtime.dll</PackagePath>
+      <Modified>2024-06-02T23:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+      <Modified>2024-06-29T00:00:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll">
+      <PackagePath>Microsoft.WinUI.dll</PackagePath>
+      <Modified>2024-06-30T21:12:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+      <Modified>2024-06-30T21:12:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+      <Modified>2024-06-30T21:12:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+      <Modified>2024-06-30T21:12:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+      <Modified>2024-06-30T21:12:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+      <Modified>2024-06-29T22:49:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+      <Modified>2024-06-30T21:12:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Management.Deployment.Projection.dll">
+      <PackagePath>Microsoft.Windows.Management.Deployment.Projection.dll</PackagePath>
+      <Modified>2024-06-30T21:12:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+      <Modified>2024-06-30T21:12:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
+      <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+      <Modified>2024-06-30T21:12:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+      <Modified>2024-06-30T21:12:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
+      <Modified>2024-06-30T21:12:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll">
+      <PackagePath>Microsoft.Windows.Widgets.Projection.dll</PackagePath>
+      <Modified>2024-06-26T21:55:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+      <Modified>2024-06-30T21:12:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.codedom\9.0.0-preview.6.24327.7\lib\net8.0\System.CodeDom.dll">
+      <PackagePath>System.CodeDom.dll</PackagePath>
+      <Modified>2024-06-27T22:09:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.configuration.configurationmanager\8.0.0\lib\net8.0\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
+      <Modified>2023-10-31T14:59:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.diagnostics.eventlog\9.0.0-preview.6.24327.7\lib\net8.0\System.Diagnostics.EventLog.dll">
+      <PackagePath>System.Diagnostics.EventLog.dll</PackagePath>
+      <Modified>2024-06-27T22:07:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.diagnostics.performancecounter\8.0.0\lib\net8.0\System.Diagnostics.PerformanceCounter.dll">
+      <PackagePath>System.Diagnostics.PerformanceCounter.dll</PackagePath>
+      <Modified>2023-10-31T15:05:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.management\9.0.0-preview.6.24327.7\lib\net8.0\System.Management.dll">
+      <PackagePath>System.Management.dll</PackagePath>
+      <Modified>2024-06-27T22:15:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.security.cryptography.protecteddata\8.0.0\lib\net8.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>System.Security.Cryptography.ProtectedData.dll</PackagePath>
+      <Modified>2023-10-31T14:59:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\winuiex\2.3.4\lib\net6.0-windows10.0.18362\WinUIEx.dll">
+      <PackagePath>WinUIEx.dll</PackagePath>
+      <Modified>2024-02-26T00:29:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.unix\3.0.0\runtimes\unix\lib\netstandard1.6\Microsoft.Management.Infrastructure.dll">
+      <PackagePath>runtimes\unix\lib\netstandard1.6\Microsoft.Management.Infrastructure.dll</PackagePath>
+      <Modified>2023-11-03T19:53:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.win\3.0.0\runtimes\win-arm64\lib\netstandard1.6\microsoft.management.infrastructure.dll">
+      <PackagePath>runtimes\win-arm64\lib\netstandard1.6\microsoft.management.infrastructure.dll</PackagePath>
+      <Modified>2023-11-03T19:55:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.win\3.0.0\runtimes\win-arm64\lib\netstandard1.6\microsoft.management.infrastructure.native.dll">
+      <PackagePath>runtimes\win-arm64\lib\netstandard1.6\microsoft.management.infrastructure.native.dll</PackagePath>
+      <Modified>2023-11-03T19:55:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.win\3.0.0\runtimes\win-arm64\native\microsoft.management.infrastructure.native.unmanaged.dll">
+      <PackagePath>runtimes\win-arm64\native\microsoft.management.infrastructure.native.unmanaged.dll</PackagePath>
+      <Modified>2023-11-03T19:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.win\3.0.0\runtimes\win-x64\lib\netstandard1.6\microsoft.management.infrastructure.dll">
+      <PackagePath>runtimes\win-x64\lib\netstandard1.6\microsoft.management.infrastructure.dll</PackagePath>
+      <Modified>2023-11-03T19:55:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.win\3.0.0\runtimes\win-x64\lib\netstandard1.6\microsoft.management.infrastructure.native.dll">
+      <PackagePath>runtimes\win-x64\lib\netstandard1.6\microsoft.management.infrastructure.native.dll</PackagePath>
+      <Modified>2023-11-03T19:55:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.win\3.0.0\runtimes\win-x64\native\microsoft.management.infrastructure.native.unmanaged.dll">
+      <PackagePath>runtimes\win-x64\native\microsoft.management.infrastructure.native.unmanaged.dll</PackagePath>
+      <Modified>2023-11-03T19:56:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.win\3.0.0\runtimes\win-x86\lib\netstandard1.6\microsoft.management.infrastructure.dll">
+      <PackagePath>runtimes\win-x86\lib\netstandard1.6\microsoft.management.infrastructure.dll</PackagePath>
+      <Modified>2023-11-03T19:55:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.win\3.0.0\runtimes\win-x86\lib\netstandard1.6\microsoft.management.infrastructure.native.dll">
+      <PackagePath>runtimes\win-x86\lib\netstandard1.6\microsoft.management.infrastructure.native.dll</PackagePath>
+      <Modified>2023-11-03T19:55:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.management.infrastructure.runtime.win\3.0.0\runtimes\win-x86\native\microsoft.management.infrastructure.native.unmanaged.dll">
+      <PackagePath>runtimes\win-x86\native\microsoft.management.infrastructure.native.unmanaged.dll</PackagePath>
+      <Modified>2023-11-03T19:55:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.web.webview2\1.0.2646-prerelease\runtimes\win-arm64\native\WebView2Loader.dll">
+      <PackagePath>runtimes\win-arm64\native\WebView2Loader.dll</PackagePath>
+      <Modified>2024-06-12T08:49:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.web.webview2\1.0.2646-prerelease\runtimes\win-x86\native\WebView2Loader.dll">
+      <PackagePath>runtimes\win-x86\native\WebView2Loader.dll</PackagePath>
+      <Modified>2024-06-12T08:49:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\runtimes\win-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>runtimes\win-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2024-06-29T22:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2024-06-29T22:48:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2024-06-29T22:48:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2024-06-29T22:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2024-06-29T22:48:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2024-06-29T22:48:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.diagnostics.eventlog\9.0.0-preview.6.24327.7\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll">
+      <PackagePath>runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll</PackagePath>
+      <Modified>2024-06-27T22:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.diagnostics.eventlog\9.0.0-preview.6.24327.7\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll">
+      <PackagePath>runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll</PackagePath>
+      <Modified>2024-06-27T22:08:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.diagnostics.performancecounter\8.0.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll">
+      <PackagePath>runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll</PackagePath>
+      <Modified>2023-10-31T14:59:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\system.management\9.0.0-preview.6.24327.7\runtimes\win\lib\net8.0\System.Management.dll">
+      <PackagePath>runtimes\win\lib\net8.0\System.Management.dll</PackagePath>
+      <Modified>2024-06-27T22:15:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.web.webview2\1.0.2646-prerelease\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
+      <Modified>2024-06-12T08:50:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.web.webview2\1.0.2646-prerelease\lib_manual\net6.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
+      <Modified>2024-06-12T08:50:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\bin\x64\Debug\net8.0-windows10.0.19041.0\ReboundDefrag.deps.json">
+      <PackagePath>ReboundDefrag.deps.json</PackagePath>
+      <Modified>2024-07-21T18:18:32.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\communitytoolkit.winui.extensions\8.0.240109\lib\net7.0-windows10.0.19041\CommunityToolkit.WinUI.Extensions.pri">
+      <PackagePath>CommunityToolkit.WinUI.Extensions.pri</PackagePath>
+      <Modified>2024-01-09T22:45:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\communitytoolkit.winui.helpers\8.0.240109\lib\net7.0-windows10.0.19041\CommunityToolkit.WinUI.Helpers.pri">
+      <PackagePath>CommunityToolkit.WinUI.Helpers.pri</PackagePath>
+      <Modified>2024-01-09T22:46:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\winuiex\2.3.4\lib\net6.0-windows10.0.18362\WinUIEx.pri">
+      <PackagePath>WinUIEx.pri</PackagePath>
+      <Modified>2024-02-26T00:29:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\Icon1 — kopia.png">
+      <PackagePath>Assets\Icon1 — kopia.png</PackagePath>
+      <Modified>2024-07-18T15:12:22.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\Icon1.png">
+      <PackagePath>Assets\Icon1.png</PackagePath>
+      <Modified>2024-07-18T15:12:22.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2024-07-18T15:12:22.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2024-07-18T15:12:22.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2024-07-18T15:12:22.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2024-07-18T15:12:22.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2024-07-18T15:12:22.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <Modified>2024-07-18T15:12:22.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Source Code\Current Apps\Rebound Defragment\ReboundDefrag\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2024-07-18T15:12:22.674</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.6-experimental2.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.6-experimental2</Name>
+      <Version>6000.183.650.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.6-experimental2, MinVersion = 6000.183.650.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.6-experimental2.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.6-experimental2.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.6-experimental2</Name>
+      <Version>6000.183.650.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.6-experimental2, MinVersion = 6000.183.650.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.6-experimental2.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.6-experimental2.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.6-experimental2</Name>
+      <Version>6000.183.650.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.6-experimental2, MinVersion = 6000.183.650.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.6-experimental2.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.6-experimental2.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.6-experimental2</Name>
+      <Version>6000.183.650.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.6-experimental2, MinVersion = 6000.183.650.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lenovo\.nuget\packages\microsoft.windowsappsdk\1.6.240701003-experimental2\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.6-experimental2.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

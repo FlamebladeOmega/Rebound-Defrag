@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Security.Principal;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -41,14 +42,28 @@ namespace ReboundDefrag
         /// <param name="args">Details about the launch request and process.</param>
         protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
         {
-            m_window = new MainWindow();
-            IntPtr hWnd = WinRT.Interop.WindowNative.GetWindowHandle(m_window);
-            var windowId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(hWnd);
-            var appWindow = Microsoft.UI.Windowing.AppWindow.GetFromWindowId(windowId);
-            appWindow.Resize(new Windows.Graphics.SizeInt32 { Width = 800, Height = 670 });
-            m_window.Activate();
+            /*if (IsAdmin() == true)
+            {*/
+                m_window = new MainWindow();
+                IntPtr hWnd = WinRT.Interop.WindowNative.GetWindowHandle(m_window);
+                var windowId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(hWnd);
+                var appWindow = Microsoft.UI.Windowing.AppWindow.GetFromWindowId(windowId);
+                m_window.Activate();
+            /*}
+            else
+            {
+                m_window = new AdminWindow();
+                m_window.Activate();
+            }*/
         }
 
         private Window m_window;
+
+        public static bool IsAdmin()
+        {
+            var identity = WindowsIdentity.GetCurrent();
+            var principal = new WindowsPrincipal(identity);
+            return principal.IsInRole(WindowsBuiltInRole.Administrator);
+        }
     }
 }
